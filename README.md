@@ -1,2 +1,2 @@
-# My-club-website
+# my-club-website
 Bacteria Subculturing Club
