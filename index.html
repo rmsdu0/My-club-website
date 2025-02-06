@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Bacterial Subculturing Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bacterial Subculturing Club</h1>
+        <nav>
+            <a href="#">About the Club</a>
+            <a href="#">Our Experiments</a>
+            <a href="#">Join Us</a>
+            <a href="#">Student Posts</a> <!-- 게시판 메뉴 추가 -->
+        </nav>
+    </header>
+
+    <section>
+        <h2>Discover. Culture. Innovate.</h2>
+        <p>Exploring the fascinating world of bacteria through scientific research and subculturing techniques.</p>
+    </section>
+
+    <!-- 학생 포스팅 섹션 추가 -->
+    <section id="student-posts">
+        <h2>🧪 Student Experiment Posts 🧪</h2>
+
+        <!-- 새 게시글 작성 폼 -->
+        <form id="post-form">
+            <input type="text" id="student-name" placeholder="Your Name" required>
+            <input type="text" id="experiment-title" placeholder="Experiment Title" required>
+            <textarea id="experiment-description" placeholder="Describe your experiment process here..." required></textarea>
+            <button type="submit">Post</button>
+        </form>
+
+        <!-- 게시글이 표시되는 곳 -->
+        <div id="post-list"></div>
+    </section>
+
+    <footer>
+        <p>© 2025 Bacterial Subculturing Club. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
